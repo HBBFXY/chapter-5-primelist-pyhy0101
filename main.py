@@ -7,7 +7,6 @@ def is_prime(num):
         if num % i == 0:
             return False
     return True
-
 def PrimeList(N):
     primes = []
     for num in range(2, N):
